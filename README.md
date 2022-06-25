@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/airamel/seventh-challenge">
       Solution
     </a>
     <span> | </span>
@@ -87,5 +87,5 @@ $ npm start
 
 ## Contact
 
-- GitHub [@airamel](https://{github.com/airamel})
-- Twitter [@mel_dur](https://{twitter.com/mel_dur})
+- GitHub [@airamel](https://github.com/airamel)
+- Twitter [@mel_dur](https://twitter.com/mel_dur)
