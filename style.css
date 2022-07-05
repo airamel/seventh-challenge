@@ -54,8 +54,6 @@
 }
 
 .h1-home {
-    width: 543px;
-    height: 144px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -271,8 +269,6 @@
 }
 
 .h1-work {
-    width: 448px;
-    height: 108px;
     margin-left: 160px;
     font-family: 'Poppins';
     font-style: normal;
@@ -433,6 +429,7 @@
 
 .description-client {
     display: inline-block;
+    width: 100%;
 }
 
 .name-client {
@@ -551,7 +548,7 @@
     .h1-home {
         margin-left: 0;
         text-align: center;
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .cont-contact {
@@ -582,13 +579,30 @@
     .h1-work {
         margin-left: 0;
         text-align: center;
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .work-smart {
         margin-top: 0;
-        width: 40%;
+        width: 100%;
     } 
+    
+    .img-work {
+        width: 100%;
+    }
+
+    .work-onboard {
+        width: 100%;
+    }
+    
+    .work-booking {
+        margin-top: 0;
+        width: 100%;
+    }
+    
+    .work-juice {
+        width:100%;
+    }
 
     .flex-team {
         flex-direction: column;
@@ -599,31 +613,39 @@
 
     .grid-team {
         margin-top: 100px;
+        width: 100%;
     }
 
     .cont-clients {
-        margin-top: 200px;
+        margin-top: 100px;
         margin-left: 20px;
     } 
+    
     .img-item {
-        width: 50px;
-        height: 50px;
-        
+        width: 90px;
+        height: 90px;
     }
     
     .phrase-client {
+        height: 100%;
         width: 100%;
         font-size: 24px;
     }
 
+    .flex-client {
+        margin-top: 20px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
     .name-client {
         margin-left: 15px;
-        font-size: 10px;
+        font-size: 18px;
     }
 
     .role-client {
         margin-left: 15px;
-        font-size: 10px;
+        font-size: 18px;
     }
 
     .cont-footer {
@@ -640,8 +662,9 @@
 
     .contact-footer {
         margin-top: 0;
-        margin-left: 50px;
+        margin-left: 0;
         margin-bottom: 20px;
+        text-align: center;
     }
 
     .label-footer {
